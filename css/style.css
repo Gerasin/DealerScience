@@ -1,0 +1,166 @@
+body {background-size: cover; background-image: url(http://www.jmlexus.com/media/media/Lexus/Progressive/body-bg.jpg);}
+
+.wr_page {padding: 0 315px 0 30px; margin: 0 90px; background: #fff; position: relative; font-family: "Nobel Book","Helvetica Neue",Helvetica,Arial,sans-serif}
+	.wr_page_bg {position: absolute; top: 0; right: 0; bottom: 0; width: 315px; background: #e5e4e2;}
+	.wr_page_r {position: absolute; top: 0; right: 0; width: 275px;}
+.cal_img {float: right; text-align: right; max-width: 45%; margin-bottom: 65px;}
+.cal_info {float: left; width: 50%; margin-bottom: 65px;}
+	.cal_info--name { font-size: 30px; text-transform: uppercase; margin: 0 0 15px; }
+	.cal_info p {font-size: 14px; line-height: 20px; margin: 0 0 20px;}
+	.wr_page_l {padding: 30px;}
+	.cal_info--table {border: 0;}
+		.cal_info--table th {font-weight: normal; text-align: left; font-size: 13px; color: #111; padding: 8px 5px 8px 20px; background: #f7f7f7;}
+		.cal_info--table td {font-size: 13px; color: #7a1313; padding: 8px 5px 8px 20px; background: #e5e4e2;}
+
+	.calc_wr {width: 46%; text-align: center;}
+	.calc_wr-l {float: left;}
+	.calc_wr-r {float: right;}
+		.calc_wr h3 {margin: 0 0 10px; padding: 0; font-size: 26px;}
+		.calc_input {width: 180px; height: 60px; background-color: #fff; text-align: center; margin: 0 auto 10px; position: relative; border: 1px solid #dadada;
+			-webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,.1);
+			-moz-box-shadow: inset 0 2px 4px rgba(0,0,0,.1);
+			box-shadow: inset 0 2px 4px rgba(0,0,0,.1);}
+			.calc_input--lnk {cursor: pointer; border-bottom: 1px dashed #7a1313; font-size: 30px; display: inline-block; margin: 13px 0 0;}
+	.calc_popup {position: absolute; bottom: 100%; left: 50%; width: 300px; margin-left: -150px; display: none;
+	    background-color: #fff;
+	    border: 1px solid #ccc;
+	    border: 1px solid rgba(0,0,0,.2);
+	    border-radius: 6px;
+	    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+	    box-shadow: 0 5px 10px rgba(0,0,0,.2);}
+	    .calc_popup:before {position: absolute; content: ' '; left: 50%; margin-left: -9px; bottom: -9px;
+	    	border-left: 9px solid transparent;
+			border-right: 9px solid transparent;
+			border-top: 9px solid #fff;}
+	    .calc_popup--header {background: #f7f7f7; padding: 7px 0 6px 14px; font-size: 14px; text-align: left;
+	    	-moz-border-radius-topleft: 6px;
+			-webkit-border-top-left-radius: 6px;
+			 border-top-left-radius: 6px;
+			-moz-border-radius-topright: 6px;
+			-webkit-border-top-right-radius: 6px;
+			border-top-right-radius: 6px;}
+	    .calc_popup--cont {padding: 9px 14px;}
+	    	.calc-close {float: right; width: 34px; height: 30px; border: 1px solid #ccc; margin: 0 0 0 7px; text-align: center; vertical-align: middle; background: url(../img/ico_close.gif) center center no-repeat;}
+	    	.calc-ok {float: right; width: 34px; height: 30px; border: 1px solid #ccc; margin: 0 0 0 7px; text-align: center; vertical-align: middle; background: #337ab7 url(../img/ico_ok.gif) center center no-repeat;}
+			.calc_popup--inp {overflow: hidden;}
+				.calc_popup--inp input {height: 30px;}
+	.calc_tax {font-size: 13px; margin: 0 0 14px;}
+	.btn_red {display: block; width: 180px; height: 50px; text-align: center; color: #fff; text-decoration: none; font-size: 24px; line-height: 50px; background: #7a1313; margin: 0 auto 14px;}
+	.btn_red:hover {background: #380108; color: #fff;}
+	.form_calk {}
+	.calc_txt {min-height: 110px;}
+		.form_calk--header {display: block; border-bottom: 1px solid #7a1313; padding: 0 0 7px; margin: 0; font-size: 26px; color: #000; font-weight: normal; text-align: left;}
+		.form_calk-wr {padding: 19px 18px 11px;} 
+			.form_calk--it {min-height: 30px; margin: 0 0 10px;}
+				.form_calk--h {float: left; width: 140px; font-size: 14px; padding: 10px 0 0; text-align: left;}
+				.form_calk--inp {margin: 0 0 0 140px;}
+					.form_calk--inp input {font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif; font-size: 14px;}
+					.form_calk--inp select {margin: 0;}
+		.form_calk--btn {height: 60px;}
+			.form_calk--btn input {float: right; background: #333; height: 40px; color: #fff; font-size: 14px;}
+	.form_calk-bg {background: #f7f7f7;}
+	.form_calk--comment {float: left; padding: 13px 0 0; color: #a0a0a0; font-size: 14px;}
+.form_calk-center {text-align: center; font-size: 13px; padding: 20px 0;}
+	.form_calk-center a {color: #0d8ee0;}
+	.form_calk-center a:hover {text-decoration: underline;}
+
+.catalog_it {position: relative;}
+	.catalog_it--stat {position: absolute; top: 0; right: 0; background: #760108; color: #fff; height: 27px; line-height: 27px; padding: 0 11px; font-size: 13px;}
+	.catalog_it--img img {width: 100%;}
+	.catalog_it--name {background: #333;padding: 8px 5px 13px 10px;position: relative;border-bottom: 2px solid #c6c6c6;}
+		.dfdfdf:before {content: ' '; position: absolute; top: 100%; left: 50%; margin-left: -3px; 
+			border-left: 7px solid transparent;
+			border-right: 7px solid transparent;
+			border-top: 14px solid #333;}
+		.catalog_it--name h2 {font-size: 24px;color: #fff;margin: 0 0 2px;font-weight: normal;}
+		.catalog_it--name p {color: #ad9f82; font-size: 13px; margin: 0; padding: 0;}
+	.catalog_it--pay {background: #f7f7f7; font-size: 13px; padding: 17px 11px 0;}
+		.pay_left {float: left; padding-bottom: 14px;}
+		.pay_right {float: right; padding-bottom: 14px;}
+			.pay_header {font-size: 13px; margin: 0 0 5px;}
+			.catalog_it--pay span {font-size: 30px;}
+			.pay_right .pay_header a {color: #760108; position: relative; text-decoration: none;}
+			.pay_right .pay_header a:hover {color: #761f25;}
+				.pay_right .pay_header a:before {content: ' '; position: absolute; top: 100%; left: 50%;
+					border-left: 3px solid transparent;
+					border-right: 3px solid transparent;
+					border-bottom: 4px solid #760108;}
+				.pay_right .pay_header a:hover:before {border-bottom: 4px solid #761f25;}
+		.catalog_it--expires {clear: both;border-top: 1px solid #c6c6c6;padding: 12px 0 17px;font-size: 13px;}
+		.expires-left {float: left;}
+		.expires-right {margin: 0 0 0 60px; text-align: right;}
+	.catalog_it--btn {margin: 0 -11px;}
+		.catalog_it--btn a {display: block; height: 53px; text-align: center; background: #760108; font-size: 27px; line-height: 53px; color: #fff; text-decoration: none;}
+		.catalog_it--btn a:hover {background: #380108; color: #fff;}
+	.caralog {margin-right: -30px;}
+		.caralog_item {display: inline-block; width: 33.33%; padding: 0 30px 30px 0; vertical-align: top;}
+	.go_back {padding: 0 0 25px; font-size: 14px;}
+		.go_back a {text-decoration: none; color: #111;}
+		.go_back a:hover {color: #7a1313;}
+	.auto_option {float: left; width: 355px; position: relative; background: #f7f7f7;}
+		.auto_option-info {position: absolute; height: 24px; top: -10px; right: -10px; padding: 0 10px; line-height: 24px; background: #ae9f82; z-index: 10; font-size: 13px;}
+		.auto_option--name {background: #333; padding: 26px 10px 13px 20px;}
+			.auto_option--name h2 {font-size: 27px; font-weight: normal; color: #fff; padding: 0; margin: 0;}
+			.auto_option--name p {margin: 0; padding: 0; color: #fff; font-size: 13px;}
+		.auto_option--pay {background: #7a1313; color: #fff; font-size: 27px; padding: 13px 10px 16px 20px;}
+	.auto_option--txt {font-size: 13px; line-height: 20px; padding: 17px 10px 15px 20px;}
+.auto_big_img {margin: 0 0 0 370px; padding: 38px 0 0;}
+	.auto_big_img img {width: 100%;}
+.auto_form {width: 350px; margin: 0 auto 32px; color: #fff; background: #333; z-index: 10; position: relative; top: -25px;}
+	.auto_form--h {text-align: center; font-size: 26px; padding: 18px 0 14px;}
+	.auto_form--expires {clear: both;padding: 4px 20px 5px;font-size: 13px; background: #4f4f4f; margin: 0 0 20px;} 
+		.auto_form .form_calk--it {padding: 0 20px 10px; margin: 0;}
+		.auto_form .btn_form {display: block; height: 60px; margin-top: 12px; text-align: center; background: #760108; font-size: 27px; line-height: 53px; color: #fff; text-decoration: none; width: 100%; padding: 0; border: 0;}
+		.auto_form .btn_form:hover {background: #380108; color: #fff;}
+.popup {position: absolute; top: 100px; left: 50%; margin-left: -220px; width: 430px; background: #f7f7f7; padding: 22px 5px 5px; z-index: 10000; display: none;}
+.popup_bg {background: #000; opacity: 0.9; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9999; display: none;}
+	.popup_close {position: absolute; top: 10px; right: 10px; width: 11px; height: 11px; background: url(../img/close.png) 0 0 no-repeat;}
+	.popup_close:hover {opacity: 0.7;}
+.popup_cont {padding: 0 25px;}
+	.popup_cont .form_calk--header {margin-bottom: 20px;}
+	.popup_cont .form_calk--h {text-align: right; padding-right: 18px; color: #111;}
+	.popup .btn_red {float: none; display: block; margin: 0; width: 100%; height: 60px; line-height: 60px; padding: 0; margin-top: 5px;}
+	.popup .form_calk--it {margin-bottom: 20px;}
+
+@media (max-width: 1200px) {
+
+	.catalog_it--pay span {font-size: 20px;}
+	.auto_option {width: 286px;}
+	.auto_big_img {margin-left: 292px;}
+
+}
+
+@media (max-width: 1120px) {
+
+	.calc_wr {float: none; width: auto;}
+	.calc_txt {min-height: 10px;}
+	.caralog_item {width: 50%;}
+
+}
+
+@media (max-width: 1120px) {
+
+	.auto_option {float: none; width: auto;}
+	.auto_big_img {margin-left: 0;}
+	.auto_form {top: 0; margin-top: 20px;}
+
+}
+
+@media (max-width: 600px) {
+
+	 .cal_img {float: none; width: auto; max-width: 100%; margin-bottom: 20px;}
+	 .cal_info {float: none; width: auto;}
+	 .caralog_item {width: 100%;}
+	 .auto_form {margin-left: -15px; margin-right: -15px; width: auto;}
+	 .auto_form .form_calk--h {width: 95px;}
+	 .auto_form .form_calk--inp {margin-left: 95px;}
+	 .cal_info--name {font-size: 27px;}
+	 .cal_info p {font-size: 12px;}
+	 .calc_wr-box {position: relative;}
+	 .calc_wr-l .calc_tax {padding-bottom: 230px;}
+	 .calc_wr-head {position: absolute;top: 147px;left: 0;right: 0;}
+	 .popup {width: 300px; margin-left: -150px;}
+
+
+}
+

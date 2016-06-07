@@ -1,0 +1,102 @@
+.js-backTop {
+	bottom: 50px !important;
+}
+.VDP-KBB {
+	background: url("http://www.jmlexus.com/JMLexusv2/media/JM-Lexus-v2/139x133.png") no-repeat !important; width: 100%; text-indent: -99999px; min-height: 120px; min-width: 125px;
+}
+img.full-width {
+	width: 100%;
+}
+.youtube-embed-container {
+	height: 0px; overflow: hidden; padding-bottom: 56.25%; position: relative; max-width: 100%;
+}
+.youtube-embed-container iframe {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.youtube-embed-container object {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.youtube-embed-container embed {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.pad-all.header-info-box {
+	padding: 0.9em;
+}
+#google_translate_element {
+	left: 5.2rem; top: 50%; position: absolute; max-height: 24px;
+}
+.site-header a.button__mobile-phone {
+	margin-top: 1.5rem; display: block;
+}
+.site-header span.icon-2x.icon-phone.fa.button__mobile-phone--icon::before {
+	padding-right: 0.5rem; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit; content: "?";
+}
+@media only screen and (min-width:767px)
+{
+.site-header a.button__mobile-phone {
+	display: none;
+}
+}
+.top-bar-section ul li > a {
+	padding: 0px 0.5rem;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	padding: 0px 0.5rem;
+}
+.header-chat-icon {
+	top: 27%; right: 2.5rem; color: rgb(0, 0, 0); position: absolute;
+}
+.header-chat-icon:hover {
+	color: rgb(118, 1, 8);
+}
+@media only screen and (max-width:1279px)
+{
+.header-chat-icon {
+	display: none;
+}
+#google_translate_element {
+	display: none;
+}
+}
+@media only screen and (min-width:1280px)
+{
+.top-bar.site-nav {
+	right: 5rem;
+}
+}
+@media only screen and (max-width:1280px) and (min-width:960px)
+{
+.top-bar-section ul li > a {
+	padding: 0px 0.3rem; font-size: 0.66rem;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	padding: 0px 0.3rem; font-size: 0.66rem;
+}
+}
+@media only screen and (max-width:1024px) and (min-width:320px)
+{
+.nav-main .AccessoriesPreview {
+	display: none;
+}
+}
+.page-2016RX p {
+	color: rgb(255, 255, 255);
+}
+.page-2016RX .vcard p {
+	color: rgb(0, 0, 0);
+}
+@media only screen and (max-width:1024px)
+{
+.page-2016RX .inner-container .column.large-9 {
+	width: 100%;
+}
+.page-TheCraftedLine .inner-container .column.large-9 {
+	width: 100%;
+}
+}
+@media only screen and (max-width:1024px)
+{
+.page-AccessoriesPreview .show-for-large-up {
+	display: none !important;
+}
+}
